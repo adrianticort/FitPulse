@@ -1,4 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <title>FitPulse 🔥 Tu Rutina Diaria</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Fondo animado -->
+  <div class="bg-blobs" aria-hidden="true">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+  </div>
 
+  <!-- Header -->
+  <header class="header">
+    <div class="header-left">
+      <span class="logo">⚡</span>
+      <div>
+        <h1 class="app-name">FitPulse</h1>
+        <p class="tagline">Tu mejor versión</p>
+      </div>
+    </div>
+    <button id="statsBtn" class="stats-btn" aria-label="Ver estadísticas">
+      <span class="streak-fire">🔥</span>
+      <span id="streakCount" class="streak-count">0</span>
+    </button>
+  </header>
+
+  <!-- Frase motivacional -->
   <div class="motivation-card">
     <p id="motivationText" class="motivation-text">"El único mal entrenamiento es el que no hiciste."</p>
     <button id="newQuoteBtn" class="new-quote-btn">✨</button>
