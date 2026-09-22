@@ -1,6 +1,36 @@
 // ================================
 // FitPulse - Tu Rutina Diaria
-//
+// ================================
+
+// Datos de rutinas optimizados para Ectomorfos (Foco: Hipertrofia + Planche + Postura)
+// Equipo: Banda, Mancuernas 1kg, Tabla de flexiones, Pared.
+const WORKOUTS = {
+  0: { // Domingo
+    type: 'rest',
+    name: 'Movilidad Postural + Técnica Handstand',
+    emoji: '🧘',
+    exercises: [
+      { name: 'Movilidad de muñecas', detail: '5 min', emoji: '🖐️' },
+      { name: 'Práctica de Handstand en pared', detail: '10 min técnico', emoji: '🤸' },
+      { name: 'Estiramiento torácico', detail: '3×30 s', emoji: '🐈' }
+    ]
+  },
+
+  1: { // Lunes
+    type: 'workout',
+    name: 'Empuje A: Fuerza & Planche Lean',
+    emoji: '💪',
+    exercises: [
+      { name: 'Planche Lean (Protracción máx)', detail: '4×20 s', emoji: '📐' },
+      { name: 'Pseudo Planche Push-ups', detail: '3×8–10 (Tempo 3-1-1-0)', emoji: '🚀' },
+      { name: 'Pike Push-ups (Pies en suelo)', detail: '3×10', emoji: '🔻' },
+      { name: 'Flexiones en tabla (Agarre ancho)', detail: '3×AMRAP', emoji: '🫸' },
+      { name: 'Hollow Body Hold', detail: '4×30 s', emoji: '🧱' }
+    ]
+  },
+
+  2: { // Martes
+    type: 'workout',
     name: 'Piernas Explosivas + Core',
     emoji: '🦵',
     exercises: [
