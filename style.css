@@ -503,52 +503,6 @@ body {
   margin-bottom: 10px;
 }
 
-.meal-card {
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
-
-.meal-card:active {
-  transform: scale(0.98);
-}
-
-.meal-card.done {
-  background: rgba(78, 205, 196, 0.12);
-  border-color: var(--accent-2);
-}
-
-.meal-card.done .meal-name {
-  text-decoration: line-through;
-  opacity: 0.75;
-}
-
-.meal-check {
-  width: 26px;
-  height: 26px;
-  border-radius: 50%;
-  border: 2px solid var(--border);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 0.85rem;
-  margin-left: auto;
-  flex-shrink: 0;
-  transition: all 0.3s ease;
-}
-
-.meal-card.done .meal-check {
-  background: var(--gradient-ocean);
-  border-color: transparent;
-}
-
-.exercise-item.no-track {
-  cursor: default;
-}
-
-.exercise-item.no-track:active {
-  transform: none;
-}
-
 .meal-icon {
   font-size: 1.5rem;
 }
